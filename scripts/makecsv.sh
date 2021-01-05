@@ -2,8 +2,8 @@
 # Set Some Variables
 # ******************
 
-input1=facebook-groups-keywords.txt
-output1=facebook-groups-keywords.txt
+input1="./facebook-groups-keywords.txt"
+output1="./facebook-groups-keywords.csv"
 
 # SORT LIST
 SortList () {
