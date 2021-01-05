@@ -10,5 +10,11 @@ Send any Pull Requests on the facebook-keywords.txt file
 
 If you do not know how work with Github simple add a new keyword by logging an ISSUE.
 
+************************************************
+## If This This Project helped you out, help support it 
+
+[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me COFFEE" width="300"/>](https://www.buymeacoffee.com/mitchellkrog)
+
+
 Kind Regards
 Mitchell Krog
