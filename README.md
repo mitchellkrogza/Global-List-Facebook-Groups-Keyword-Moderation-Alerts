@@ -6,7 +6,7 @@ This current list is compiled from a number of big groups I operate and am admin
 
 This list will be update frequently BUT without your own contributions we cannot make it the strongest scammer, spammer and phisher list ever which this WILL become.
 
-Send any Pull Requests on the facebook-keywords.txt file
+Send any Pull Requests on the facebook-groups-keywords.txt file
 
 If you do not know how work with Github simple add a new keyword by logging an ISSUE.
 
