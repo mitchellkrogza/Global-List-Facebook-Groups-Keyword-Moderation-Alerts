@@ -28,8 +28,8 @@ jobs:
         run: echo $PATH
         shell: bash
 
-      - name: Modifiy the specific files using action
-        uses: mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts@refs/heads
+      - name: Modify the specific files using action
+        uses: mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts@master
 
       - name: Commit and push changes
         run: |
