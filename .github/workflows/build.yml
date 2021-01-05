@@ -2,6 +2,10 @@
 
 name: CI
 
+defaults:
+  run:
+    shell: bash
+
 on:
   push:
     branches: [ main ]
@@ -12,12 +16,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@master
       - name: Run build
-      - shell: bash
+        shell: bash
         run: |
           sort -u ./facebook-groups-keywords.txt -o ./facebook-groups-keywords.txt
           tr '\n' ',' < ./facebook-groups-keywords.txt > ./facebook-groups-keywords.csv
+      - name: Display the path
+        run: echo $PATH
+        shell: bash
 
