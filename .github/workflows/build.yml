@@ -8,10 +8,6 @@ on:
   pull_request:
     branches: [ main ]
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,6 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run build
+      - shell: bash
         run: |
           sort -u ./facebook-groups-keywords.txt -o ./facebook-groups-keywords.txt
           tr '\n' ',' < ./facebook-groups-keywords.txt > ./facebook-groups-keywords.csv
