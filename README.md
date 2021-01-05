@@ -1,7 +1,9 @@
-# Global-List-Facebook-Groups-Keyword-Moderation-Alerts
+# Global List of Facebook Groups Keyword Moderation Alerts
+
 The Global List of Facebook Groups Keywords for Moderation Alerts
 
 Feel Free to use this ever growing list of Keywords if you own or operate a Facebook Group.
+
 This current list is compiled from a number of big groups I operate and am an admin of.
 
 This list will be update frequently BUT without your own contributions we cannot make it the strongest scammer, spammer and phisher list ever which this WILL become.
@@ -9,6 +11,21 @@ This list will be update frequently BUT without your own contributions we cannot
 Send any Pull Requests on the facebook-groups-keywords.txt file
 
 If you do not know how work with Github simply add a new keyword by logging an ISSUE.
+
+## How to Use
+
+The Favebook Keyword Alerts allows input of a comma separated (csv) list of keyworks. For this purpose we create and update the facebook-groups-keywords.csv file on each update. This makes it easy to update your keywords alerts in your Facebook Group. (always download the RAW file of the .csv)
+
+If you don't want all the words then simply pick selectively from the plain text list facebook-groups-keywords.txt
+
+### Where to Find Moderation Alerts?
+
+In your Admin Tools click 
+- Moderation Alerts
+- Edit Alerts
+- Keywords
+
+Enjoy ;)
 
 ************************************************
 ## If This This Project helped you out, help support it 
