@@ -12,7 +12,7 @@ Send any Pull Requests on the facebook-groups-keywords.txt file
 
 If you do not know how work with Github simply add a new keyword by logging an ISSUE.
 
-[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me COFFEE" width="100"/>](https://www.buymeacoffee.com/mitchellkrog)
+[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me COFFEE" width="200"/>](https://www.buymeacoffee.com/mitchellkrog)
 
 ## How to Use
 
