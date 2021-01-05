@@ -6,8 +6,8 @@ set -e
 # Set Some Variables
 # ******************
 
-input1=${TRAVIS_BUILD_DIR}/facebook-groups-keywords.txt
-output1=${TRAVIS_BUILD_DIR}/facebook-groups-keywords.txt
+input1=facebook-groups-keywords.txt
+output1=facebook-groups-keywords.txt
 
 # SORT LIST
 sort -u ${input1} -o ${input1}
@@ -47,8 +47,8 @@ git push origin master
 
 # RUN TRIGGERS
 GenerateCSV
-PrepareTravis
-CommitData
+#PrepareTravis
+#CommitData
 
 # **********************
 # Exit With Error Number
