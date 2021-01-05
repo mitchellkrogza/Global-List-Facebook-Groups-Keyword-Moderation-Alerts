@@ -12,9 +12,11 @@ Send any Pull Requests on the facebook-groups-keywords.txt file
 
 If you do not know how work with Github simply add a new keyword by logging an ISSUE.
 
+[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me COFFEE" width="100"/>](https://www.buymeacoffee.com/mitchellkrog)
+
 ## How to Use
 
-The Favebook Keyword Alerts allows input of a comma separated (csv) list of keyworks. For this purpose we create and update the facebook-groups-keywords.csv file on each update. This makes it easy to update your keywords alerts in your Facebook Group. (always download the RAW file of the .csv)
+The Facebook Keyword Alerts allows input of a comma separated (csv) list of keyworks. For this purpose we create and update the facebook-groups-keywords.csv file on each update. This makes it easy to update your keywords alerts in your Facebook Group. (always download the RAW file of the .csv)
 
 If you don't want all the words then simply pick selectively from the plain text list facebook-groups-keywords.txt
 
