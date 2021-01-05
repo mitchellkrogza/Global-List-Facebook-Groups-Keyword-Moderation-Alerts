@@ -17,13 +17,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - name: Run build
         shell: bash
         run: |
           sort -u ./facebook-groups-keywords.txt -o ./facebook-groups-keywords.txt
           tr '\n' ',' < ./facebook-groups-keywords.txt > ./facebook-groups-keywords.csv
+
       - name: Display the path
         run: echo $PATH
         shell: bash
 
+      - name: Modifiy the specific files using action
+        uses: action-owner/action-repo@ref
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "mitchellkrogza"
+          git config --global user.email "mitchellkrog@gmail.com"
+
+          git add -A
+          git commit -m "New Version"
+          git push
