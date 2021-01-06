@@ -25,21 +25,19 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run build
         shell: bash
-        run: |
-          sort -u ./facebook-groups-keywords.txt -o ./facebook-groups-keywords.txt
-          tr '\n' ',' < ./facebook-groups-keywords.txt > ./facebook-groups-keywords.csv
-
-      - name: Display the path
-        run: echo $PATH
-        shell: bash
-
-      - name: Test script
-        run: ./scripts/test.sh
-        shell: bash
-
-      - name: Test script2
         run: ./scripts/makecsv.sh
-        shell: bash
+
+#      - name: Display the path
+#        run: echo $PATH
+#        shell: bash
+
+#      - name: Test script
+#        run: ./scripts/test.sh
+#        shell: bash
+
+#      - name: Test script2
+#        run: ./scripts/makecsv.sh
+#        shell: bash
 
       - name: Commit and push changes
         run: |
