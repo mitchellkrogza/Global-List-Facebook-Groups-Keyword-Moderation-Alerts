@@ -34,7 +34,7 @@ jobs:
         shell: bash
 
       - name: Test script
-        run: run ./scripts/test.sh
+        run: ./scripts/test.sh
         shell: bash
 
 
