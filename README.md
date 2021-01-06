@@ -1,4 +1,4 @@
-# Global List of Facebook Groups Keyword & Phrases Moderation Alerts
+# Global List of Facebook Groups Spam & Scam Keyword & Phrases Moderation Alerts
 
 The Global List of Facebook Groups Keywords for Moderation Alerts
 
