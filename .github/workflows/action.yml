@@ -37,6 +37,9 @@ jobs:
         run: ./scripts/test.sh
         shell: bash
 
+      - name: Test script2
+        run: ./scripts/makecsv.sh
+        shell: bash
 
       - name: Commit and push changes
         run: |

@@ -1,9 +1,13 @@
+set -e
+set -o pipefail
+
 # ******************
 # Set Some Variables
 # ******************
 
 input1="./facebook-groups-keywords.txt"
 output1="./facebook-groups-keywords.csv"
+
 
 # SORT LIST
 SortList () {
@@ -16,5 +20,6 @@ tr '\n' ',' < ${input1} > ${output1}
 }
 
 # RUN TRIGGERS
+echo "Generating CSV"
 SortList
 GenerateCSV
