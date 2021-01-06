@@ -33,6 +33,11 @@ jobs:
         run: echo $PATH
         shell: bash
 
+      - name: Test script
+        run: run ./scripts/test.sh
+        shell: bash
+
+
       - name: Commit and push changes
         run: |
           git config --global user.name "mitchellkrogza"
