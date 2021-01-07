@@ -70,7 +70,6 @@ w ./README.md
 q
 IN
 rm ./tmprdme2
-done
 }
 
 CommitAndPush () {
