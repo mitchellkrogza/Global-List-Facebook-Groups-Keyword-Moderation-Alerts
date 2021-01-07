@@ -5,6 +5,9 @@ set -o pipefail
 # Set Some Variables
 # ******************
 
+VERSIONNUMBER=$(date "+%F")
+LATESTBUILD="V.${VERSIONNUMBER}"
+
 # SORT LIST
 SortList () {
 sort -u ./facebook-groups-keywords.txt -o ./facebook-groups-keywords.txt
@@ -44,11 +47,18 @@ IN
 rm ./tmprdme2
 }
 
+CommitAndPush () {
+          git config --global user.name "mitchellkrogza"
+          git config --global user.email "mitchellkrog@gmail.com"
+          git add -A
+          git commit -m "${LATESTBUILD}"
+          git push
+}
 
 # RUN TRIGGERS
 echo "Generating CSV"
 SortList
 GenerateCSV
 UpdateReadme
+CommitAndPush
 echo "Finished"
-
