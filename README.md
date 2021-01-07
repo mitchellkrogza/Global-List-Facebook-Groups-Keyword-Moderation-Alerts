@@ -3,7 +3,7 @@
 The Global List of Facebook Groups Keywords for Moderation Alerts
 
 _______________
-#### Total Keywords and Phrases: 130
+#### Total Keywords and Phrases: 131
 ____________________
 
 Feel Free to use this ever growing list of Keywords if you own or operate a Facebook Group.
