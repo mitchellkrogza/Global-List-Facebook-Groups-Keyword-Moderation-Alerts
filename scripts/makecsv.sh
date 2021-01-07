@@ -15,9 +15,11 @@ GenerateCSV () {
 cnum=0
 while mapfile -t -n 25 ary && ((${#ary[@]})); do
     cnum=$((${cnum}+1))
-    printf '%s,' "${ary[@]}" > facebook-groups-keywords-0${cnum}.csv
+    printf '%s,' "${ary[@]}" > ./facebook-groups-keywords-0${cnum}.csv
     printf -- "--- Generating facebook-groups-keywords-0${cnum}.csv ---\n"
-done < facebook-groups-keywords.txt
+done < ./facebook-groups-keywords.txt
+
+tr '\n' ',' < ./facebook-groups-keywords.txt > ./facebook-groups-keywords-complete.csv
 }
 
 #UPDATE README
