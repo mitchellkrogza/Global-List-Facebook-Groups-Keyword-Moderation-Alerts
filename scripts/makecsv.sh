@@ -51,7 +51,7 @@ PlainTextLinks (){
 startmarker2="---------------"
 endmarker2="--------------------"
 
-for f in ./facebook-groups-keywords-0*.csv
+for f in facebook-groups-keywords-0*.csv
 do
  echo "Processing ${f}"
 printf '%s\n%s\n' "${startmarker2}" "[${f}](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/${f})" >> ./tmprdme
