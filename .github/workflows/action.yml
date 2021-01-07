@@ -31,11 +31,11 @@ jobs:
 #        run: echo $PATH
 #        shell: bash
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "mitchellkrogza"
-          git config --global user.email "mitchellkrog@gmail.com"
+#      - name: Commit and push changes
+#        run: |
+#          git config --global user.name "mitchellkrogza"
+#          git config --global user.email "mitchellkrog@gmail.com"
 
-          git add -A
-          git commit -m "New Version"
-          git push
+#          git add -A
+#          git commit -m "New Version"
+#          git push
