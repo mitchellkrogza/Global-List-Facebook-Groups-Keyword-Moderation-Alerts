@@ -31,7 +31,13 @@ In your Admin Tools click
 - Edit Alerts
 - Keywords
 
-Enjoy ;)
+### Direct Links to Plain Text CSV (Comma Seperated Variable) Files
+
+---------------
+
+--------------------
+
+Enjoy ;) and [Buy Me a Coffee](https://www.buymeacoffee.com/mitchellkrog)
 
 ************************************************
 ## If This This Project helped you out, help support it 
