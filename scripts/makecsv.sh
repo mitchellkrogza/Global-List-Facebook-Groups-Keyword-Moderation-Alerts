@@ -55,7 +55,7 @@ printf '%s\n%s\n' "${startmarker2}" >> ./tmprdme
 for f in facebook-groups-keywords-0*.csv
 do
  echo "Processing ${f}"
-printf '%s\n' "*[${f}](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/${f})" >> ./tmprdme
+printf '%s\n' "* [${f}](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/${f})" >> ./tmprdme
 done 
 printf '%s\n'"${endmarker2}" >> ./tmprdme
 mv ./tmprdme ./tmprdme2
