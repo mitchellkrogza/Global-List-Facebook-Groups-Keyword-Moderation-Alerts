@@ -47,6 +47,32 @@ IN
 rm ./tmprdme2
 }
 
+PlainTextLinks (){
+startmarker2="---------------"
+endmarker2="--------------------"
+
+for f in ./facebook-groups-keywords-0*.csv
+do
+ echo "Processing ${f}"
+printf '%s\n%s\n' "${startmarker2}" "[${f}](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/${f})" >> ./tmprdme
+done 
+printf '%s\n'"${endmarker2}" >> ./tmprdme
+mv ./tmprdme ./tmprdme2
+ed -s ./tmprdme2<<\IN
+1,/---------------/d
+/--------------------/,$d
+,d
+.r ./README.md
+/---------------/x
+.t.
+.,/--------------------/-d
+w ./README.md
+q
+IN
+rm ./tmprdme2
+done
+}
+
 CommitAndPush () {
           git config --global user.name "mitchellkrogza"
           git config --global user.email "mitchellkrog@gmail.com"
@@ -60,5 +86,6 @@ echo "Generating CSV"
 SortList
 GenerateCSV
 UpdateReadme
+PlainTextLinks
 CommitAndPush
 echo "Finished"
