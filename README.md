@@ -3,7 +3,7 @@
 The Global List of Facebook Groups Keywords for Moderation Alerts
 
 _______________
-#### Total Keywords and Phrases: 141
+#### Total Keywords and Phrases: 152
 ____________________
 
 Feel Free to use this ever growing list of Keywords if you own or operate a Facebook Group.
@@ -40,6 +40,7 @@ In your Admin Tools click
 * [facebook-groups-keywords-03.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-03.csv)
 * [facebook-groups-keywords-04.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-04.csv)
 * [facebook-groups-keywords-05.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-05.csv)
+* [facebook-groups-keywords-06.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-06.csv)
 
 --------------------
 
