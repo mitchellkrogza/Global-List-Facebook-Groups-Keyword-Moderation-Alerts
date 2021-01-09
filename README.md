@@ -3,7 +3,7 @@
 The Global List of Facebook Groups Keywords for Moderation Alerts
 
 _______________
-#### Total Keywords and Phrases: 182
+#### Total Keywords and Phrases: 197
 ____________________
 
 Feel Free to use this ever growing list of Keywords if you own or operate a Facebook Group.
@@ -41,8 +41,9 @@ In your Admin Tools click
 * [facebook-groups-keywords-04.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-04.csv) (Character Count: 433)
 * [facebook-groups-keywords-05.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-05.csv) (Character Count: 423)
 * [facebook-groups-keywords-06.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-06.csv) (Character Count: 407)
-* [facebook-groups-keywords-07.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-07.csv) (Character Count: 392)
-* [facebook-groups-keywords-08.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-08.csv) (Character Count: 413)
+* [facebook-groups-keywords-07.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-07.csv) (Character Count: 410)
+* [facebook-groups-keywords-08.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-08.csv) (Character Count: 500)
+* [facebook-groups-keywords-09.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-09.csv) (Character Count: 251)
 
 --------------------
 
