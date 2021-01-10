@@ -18,8 +18,8 @@ GenerateCSV () {
 cnum=0
 while mapfile -t -n 21 ary && ((${#ary[@]})); do
     cnum=$((${cnum}+1))
-    printf '%s,' "${ary[@]}" > ./facebook-groups-keywords-0${cnum}.csv
-    printf -- "--- Generating facebook-groups-keywords-0${cnum}.csv ---\n"
+    printf '%s,' "${ary[@]}" > ./facebook-groups-keywords-00${cnum}.csv
+    printf -- "--- Generating facebook-groups-keywords-00${cnum}.csv ---\n"
 done < ./facebook-groups-keywords.txt
 
 tr '\n' ',' < ./facebook-groups-keywords.txt > ./facebook-groups-keywords-complete.csv
@@ -52,7 +52,7 @@ startmarker2="---------------"
 endmarker2="--------------------"
 
 printf '%s\n%s\n' "${startmarker2}" >> ./tmprdme
-for f in facebook-groups-keywords-0*.csv
+for f in facebook-groups-keywords-00*.csv
 do
  echo "Processing ${f}"
  charcount=$(printf %d $(wc -c <${f}))
