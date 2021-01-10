@@ -52,12 +52,12 @@ startmarker2="---------------"
 endmarker2="--------------------"
 
 printf '%s\n%s\n' "${startmarker2}" >> ./tmprdme
-for f in 'ls -v facebook-groups-keywords-*.csv';
+for f in facebook-groups-keywords-*.csv'
 do
  echo "Processing ${f}"
  charcount=$(printf %d $(wc -c <${f}))
-printf '%s\n' "* [${f}](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/${f}) (Char Count: ${charcount})" >> ./tmprdme;
-done; 
+printf '%s\n' "* [${f}](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/${f}) (Char Count: ${charcount})" >> ./tmprdme
+done
 printf '%s\n'"${endmarker2}" >> ./tmprdme
 mv ./tmprdme ./tmprdme2
 ed -s ./tmprdme2<<\IN
