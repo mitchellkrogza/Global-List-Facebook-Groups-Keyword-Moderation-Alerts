@@ -8,8 +8,6 @@ set -o pipefail
 VERSIONNUMBER=$(date "+%F")
 LATESTBUILD="V.${VERSIONNUMBER}"
 
-rm facebook-groups-keywords-0*.csv
-
 # SORT LIST
 SortList () {
 sort -u ./facebook-groups-keywords.txt -o ./facebook-groups-keywords.txt
@@ -54,7 +52,7 @@ startmarker2="---------------"
 endmarker2="--------------------"
 
 printf '%s\n%s\n' "${startmarker2}" >> ./tmprdme
-for f in facebook-groups-keywords-*.csv
+for f in ls -v facebook-groups-keywords-*.csv
 do
  echo "Processing ${f}"
  charcount=$(printf %d $(wc -c <${f}))
