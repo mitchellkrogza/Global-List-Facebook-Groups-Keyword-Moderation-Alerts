@@ -8,8 +8,6 @@ set -o pipefail
 VERSIONNUMBER=$(date "+%F")
 LATESTBUILD="V.${VERSIONNUMBER}"
 
-rm ./*.csv
-
 # SORT LIST
 SortList () {
 sort -u ./facebook-groups-keywords.txt -o ./facebook-groups-keywords.txt
@@ -55,12 +53,20 @@ endmarker2="--------------------"
 
 printf '%s\n%s\n' "${startmarker2}" >> ./tmprdme
 
-du facebook-groups-keywords-*.csv | sort -k2,2n |
-while read filesize filename; do
+for filename in `ls -v *.csv`;
+do
  echo "Processing ${filename}"
  charcount=$(printf %d $(wc -c <${filename}))
 printf '%s\n' "* [${filename}](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/${filename}) (Char Count: ${charcount})" >> ./tmprdme
 done
+
+
+#du facebook-groups-keywords-*.csv | sort -k2,2n |
+#while read filesize filename; do
+# echo "Processing ${filename}"
+# charcount=$(printf %d $(wc -c <${filename}))
+#printf '%s\n' "* [${filename}](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/${filename}) (Char Count: ${charcount})" >> ./tmprdme
+#done
 
 
 #for f in facebook-groups-keywords-*.csv
