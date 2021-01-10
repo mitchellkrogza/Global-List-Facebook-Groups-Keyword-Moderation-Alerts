@@ -35,6 +35,8 @@ In your Admin Tools click
 
 ---------------
 
+* [ls](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/ls) (Char Count: 0)
+* [-v](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/-v) (Char Count: 0)
 * [facebook-groups-keywords-1.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-1.csv) (Char Count: 362)
 * [facebook-groups-keywords-10.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-10.csv) (Char Count: 467)
 * [facebook-groups-keywords-2.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-2.csv) (Char Count: 292)
