@@ -8,6 +8,8 @@ set -o pipefail
 VERSIONNUMBER=$(date "+%F")
 LATESTBUILD="V.${VERSIONNUMBER}"
 
+rm ./*.csv
+
 # SORT LIST
 SortList () {
 sort -u ./facebook-groups-keywords.txt -o ./facebook-groups-keywords.txt
@@ -18,8 +20,8 @@ GenerateCSV () {
 cnum=0
 while mapfile -t -n 21 ary && ((${#ary[@]})); do
     cnum=$((${cnum}+1))
-    printf '%s,' "${ary[@]}" > ./facebook-groups-keywords-${cnum}.csv
-    printf -- "--- Generating facebook-groups-keywords-${cnum}.csv ---\n"
+    printf '%s,' "${ary[@]}" > ./facebook-groups-keywords-00${cnum}.csv
+    printf -- "--- Generating facebook-groups-keywords-00${cnum}.csv ---\n"
 done < ./facebook-groups-keywords.txt
 
 tr '\n' ',' < ./facebook-groups-keywords.txt > ./facebook-groups-keywords-complete.csv
@@ -52,12 +54,21 @@ startmarker2="---------------"
 endmarker2="--------------------"
 
 printf '%s\n%s\n' "${startmarker2}" >> ./tmprdme
-for f in facebook-groups-keywords-*.csv
-do
- echo "Processing ${f}"
- charcount=$(printf %d $(wc -c <${f}))
-printf '%s\n' "* [${f}](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/${f}) (Char Count: ${charcount})" >> ./tmprdme
+
+du ./facebook-groups-keywords-*.csv | sort -k2,2n |
+while read filesize filename; do
+ echo "Processing ${filename}"
+ charcount=$(printf %d $(wc -c <${filename}))
+printf '%s\n' "* [${filename}](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/${filename}) (Char Count: ${charcount})" >> ./tmprdme
 done
+
+
+#for f in facebook-groups-keywords-*.csv
+#do
+# echo "Processing ${f}"
+# charcount=$(printf %d $(wc -c <${f}))
+#printf '%s\n' "* [${f}](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/${f}) (Char Count: ${charcount})" >> ./tmprdme
+#done
 printf '%s\n'"${endmarker2}" >> ./tmprdme
 mv ./tmprdme ./tmprdme2
 ed -s ./tmprdme2<<\IN
