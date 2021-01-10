@@ -8,6 +8,8 @@ set -o pipefail
 VERSIONNUMBER=$(date "+%F")
 LATESTBUILD="V.${VERSIONNUMBER}"
 
+rm facebook-groups-keywords-00*.csv
+
 # SORT LIST
 SortList () {
 sort -u ./facebook-groups-keywords.txt -o ./facebook-groups-keywords.txt
