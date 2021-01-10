@@ -55,7 +55,7 @@ endmarker2="--------------------"
 
 printf '%s\n%s\n' "${startmarker2}" >> ./tmprdme
 
-du ./facebook-groups-keywords-*.csv | sort -k2,2n |
+du facebook-groups-keywords-*.csv | sort -k2,2n |
 while read filesize filename; do
  echo "Processing ${filename}"
  charcount=$(printf %d $(wc -c <${filename}))
