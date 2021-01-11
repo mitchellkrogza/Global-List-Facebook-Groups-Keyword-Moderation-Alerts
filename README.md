@@ -10,7 +10,7 @@ Feel Free to use this ever growing list of Keywords if you own or operate a Face
 
 This current list is compiled from a number of big groups I operate and am an admin of. There is a lot of South African words and Afrikaans phrases too but this is of course a Global List so just delete any keywords that do not apply to you or your group.
 
-This list will be update frequently BUT without your own contributions we cannot make it the strongest scammer, spammer and phisher list ever which this WILL become.
+This list will be updated frequently BUT without your own contributions we cannot make it the strongest scammer, spammer and phisher list ever which this WILL become.
 
 Send any Pull Requests on the facebook-groups-keywords.txt file
 
