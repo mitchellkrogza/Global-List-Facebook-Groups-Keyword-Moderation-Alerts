@@ -16,7 +16,7 @@ sort -u ./facebook-groups-keywords.txt -o ./facebook-groups-keywords.txt
 #GENERATE CSV
 GenerateCSV () {
 cnum=0
-while mapfile -t -n 21 ary && ((${#ary[@]})); do
+while mapfile -t -n 19 ary && ((${#ary[@]})); do
     cnum=$((${cnum}+1))
     printf '%s,' "${ary[@]}" > ./facebook-groups-keywords-${cnum}.csv
     printf -- "--- Generating facebook-groups-keywords-${cnum}.csv ---\n"
