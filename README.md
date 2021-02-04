@@ -3,7 +3,7 @@
 The Global List of Facebook Groups Keywords for Moderation Alerts
 
 _______________
-#### Total Keywords and Phrases: 213
+#### Total Keywords and Phrases: 194
 ____________________
 
 Feel Free to use this ever growing list of Keywords if you own or operate a Facebook Group.
@@ -35,12 +35,12 @@ In your Admin Tools click
 
 ---------------
 
-* [facebook-groups-keywords-1.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-1.csv) (Char Count: 412)
-* [facebook-groups-keywords-2.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-2.csv) (Char Count: 414)
-* [facebook-groups-keywords-3.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-3.csv) (Char Count: 468)
-* [facebook-groups-keywords-4.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-4.csv) (Char Count: 420)
-* [facebook-groups-keywords-5.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-5.csv) (Char Count: 455)
-* [facebook-groups-keywords-6.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-6.csv) (Char Count: 425)
+* [facebook-groups-keywords-1.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-1.csv) (Char Count: 369)
+* [facebook-groups-keywords-2.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-2.csv) (Char Count: 416)
+* [facebook-groups-keywords-3.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-3.csv) (Char Count: 358)
+* [facebook-groups-keywords-4.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-4.csv) (Char Count: 303)
+* [facebook-groups-keywords-5.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-5.csv) (Char Count: 356)
+* [facebook-groups-keywords-6.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-6.csv) (Char Count: 134)
 * [facebook-groups-keywords-7.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-7.csv) (Char Count: 381)
 * [facebook-groups-keywords-8.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-8.csv) (Char Count: 44)
 * [facebook-groups-keywords-9.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-9.csv) (Char Count: 254)
@@ -53,7 +53,7 @@ In your Admin Tools click
 * [facebook-groups-keywords-16.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-16.csv) (Char Count: 214)
 * [facebook-groups-keywords-17.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-17.csv) (Char Count: 324)
 * [facebook-groups-keywords-18.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-18.csv) (Char Count: 99)
-* [facebook-groups-keywords-complete.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-complete.csv) (Char Count: 2594)
+* [facebook-groups-keywords-complete.csv](https://raw.githubusercontent.com/mitchellkrogza/Global-List-Facebook-Groups-Keyword-Moderation-Alerts/main/facebook-groups-keywords-complete.csv) (Char Count: 1936)
 
 --------------------
 
